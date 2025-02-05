@@ -9,7 +9,11 @@ A Python tool to find subdomains from crt.sh
 - CLI support for specifying output files
 ##
  ⚡ UsageRun the script with a domain name:
-    `python script.py example.com`
-
+````bash
+python script.py example.com
+````
+##
 ⚡To save output to a custom file:
-    `python script.py example.com -o my_subdomains.txt`
+````bash
+python script.py example.com -o my_subdomains.txt
+````   
